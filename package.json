@@ -1,0 +1,22 @@
+
+{
+  "name": "earthquake-detector",
+  "version": "1.0.0",
+  "description": "A simple React Native module to detect seismic activity using accelerometer data.",
+  "main": "src/EarthquakeDetector.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thevobos/EarthquakeDetector.git"
+  },
+  "keywords": ["react-native", "earthquake", "sensor", "accelerometer", "seismic"],
+  "author": "Cengiz AKCAN",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-sensors": "^7.3.2",
+    "rxjs": "^7.8.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  }
+}
